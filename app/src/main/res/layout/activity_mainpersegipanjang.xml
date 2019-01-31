@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainpersegipanjangActivity"
+    android:background="#FFD180"
+    android:padding="10dp"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan panjang"
+        android:textColorHint="#FF6D00"
+        android:id="@+id/editTextppp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan lebar"
+        android:textColorHint="#FF6D00"
+        android:id="@+id/editTextppl"
+        android:layout_below="@id/editTextppp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:layout_below="@id/editTextppl"
+        android:id="@+id/btnhitungpp"
+        android:textColor="#FF6D00"
+        android:background="#FFAB00"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnhitungpp"
+        android:text="hasilnya"
+        android:id="@+id/hasilnyapp"
+        android:textColor="#FF6D00"
+        />
+
+</RelativeLayout>
